@@ -1,0 +1,150 @@
+body {
+    font-size: 20px;
+    background-image: url("imgs/background.jpg");
+    color: white;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+section {
+    width: 100%;
+}
+
+img {
+    height: 220px;
+    width: auto;
+}
+
+img {
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 10%;
+    border-color: rgb(107, 107, 107);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* ------------------------------------------------------------- */
+
+#aboutsection {
+    width: 100%;
+    height: auto;
+}
+
+#aboutprofile {
+    width: 80%;
+}
+
+#skills {
+    width: 100%;
+}
+
+#headernav li {
+    display: inline-block;
+}
+
+#headernav ul {
+    word-spacing: 20px;
+}
+
+/* ------------------------------------------------------------- */
+
+.educationdetail img {
+    height: 220px;
+    width: auto;
+}
+
+.hcenter {
+    text-align: center;
+}
+
+.row {
+    
+}
+
+.column {
+    float: left;
+    width: 45%;
+    margin: 20px;
+    padding: 10px;
+}
+
+.skillbox {
+    
+}
+
+.skilldisp {
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+.skillprogress {
+    background-color: rgb(78, 78, 78);
+    height: 35px;
+    width: 176px;
+    border-width: 1px;
+    border-radius: 16px;
+    overflow: hidden;
+    margin: 22px;
+    box-shadow: 1px 1px 2px 1px rgb(202, 202, 202);
+}
+
+.skillname span {
+    margin-left: 10px;
+    text-align: center;
+}
+
+.scolumn {
+    float: left;
+    width: 30%;
+}
+
+.fivezerop {
+    height: inherit;
+    width: 50%;
+    background-color: rgb(0, 158, 158);
+}
+
+.eightsevenp {
+    height: inherit;
+    width: 87%;
+    background-color: rgb(158, 108, 0);
+}
+
+.sixninep {
+    height: inherit;
+    width: 69%;
+    background-color: rgb(121, 0, 158);
+}
+
+.fourtwop {
+    height: inherit;
+    width: 42%;
+    background-color: rgb(0, 158, 8);
+}
+
+.sixtwop {
+    height: inherit;
+    width: 62%;
+    background-color: rgb(148, 158, 0);
+}
+
+.onesixp {
+    height: inherit;
+    width: 16%;
+    background-color: rgb(158, 0, 0);
+}
+
+.navmenu li a {
+    transition: color 0.5s, border-bottom 4s;
+}
+
+.navmenu li a:hover {
+    color: lime;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
