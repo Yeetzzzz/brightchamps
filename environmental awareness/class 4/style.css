@@ -1,0 +1,134 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#banner {
+    background: url("images/forest\ floor.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 650px;
+}
+
+/* #explore {
+    background-color: white;
+    color: black;
+} */
+
+.logo {
+    width: 140px;
+    margin-top: 20px;
+}
+
+.bannertext {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 180px;
+}
+
+.bannertext h1 {
+    font-size: 60px;
+}
+
+.bannertext p {
+    font-size: 20px;
+    background-color: rgba(56, 56, 56, 0.75);
+}
+
+.bannerbutton {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.bannerbutton a {
+    width: 200px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    padding: 12px 0;
+    border: 3px solid white;
+    border-radius: 100px;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s ease-out;
+}
+
+.bannerbutton a span {
+    width: 0%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: white;
+    position: absolute;
+
+    transition: 0.5s ease-out;
+    z-index: -1;
+}
+
+.bannerbutton a:hover span {
+    width: 100%;
+}
+
+.bannerbutton a:hover {
+    color: black;
+}
+
+.titletext {
+    text-align: center;
+    padding-bottom: 70px;
+    margin-bottom: 25px;
+}
+
+.titletext p {
+    font-size: 40px;
+    color: black;
+}
+
+.titletext h1 {
+    font-size: 30px;
+    color: black;
+}
+
+.content {
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+    background: linear-gradient(lightgray, white);
+}
+
+.featurebox {
+    display: flex;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.featurebox img {
+    width: 70%;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.features {
+    flex-basis: 50%;
+
+}
+
+.featureimage {
+    flex-basis: 50%;
+    margin: auto;
+}
+
+.features span {
+    font-size: 30px;
+    color: black;
+}
