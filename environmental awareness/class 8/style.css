@@ -28,6 +28,11 @@
     color: black;
 }
 
+#testimonials {
+    width: 100%;
+    padding: 70px;
+}
+
 /* #explore {
     background-color: white;
     color: black;
@@ -103,6 +108,9 @@
 .titletext p {
     font-size: 40px;
     color: black;
+    margin: auto;
+    font-weight: bold;
+    position: relative;
 }
 
 .titletext h1 {
@@ -191,6 +199,7 @@
     border-radius: 7px;
     cursor: pointer;
     position: relative;
+    transition: ease-in-out opacity 300ms;
     opacity: 0;
 }
 
@@ -204,10 +213,54 @@
     position: relative;
     left: 10%;
     transition: bottom 1s;
+    transition: opacity 300ms ease-in-out;
     opacity: 0;
     bottom: 40%;
 }
 
 .singleimpact:hover .impactdescription {
     opacity: 1;
+}
+
+.testimonial-row {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.testimonial-column {
+    flex-basis: 28%;
+    padding: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 20px 3px #313338;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+}
+
+.testimonial-column:hover {
+    transform: translateY(-12px);
+}
+
+.testimonial-column p {
+    font-size: 17px;
+}
+
+.user img {
+    width: 40px;
+    border-radius: 3px;
+}
+
+.userinfo .fa {
+    color: #1DA1F2;
+    font-size: 20px;
+    margin-left: 10px;
+    /* color: blue; */
+}
+
+.userinfo small {
+    /* color: #1DA1F2; */
+    color: blue;
 }
