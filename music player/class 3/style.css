@@ -1,0 +1,123 @@
+/* All */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.body-header {
+    background-color: #890C1B;
+}
+
+.section-heading {
+    padding-left: 25%;
+    margin: 12px;
+    font-weight: 500;
+    font-size: 40px;
+    color: aliceblue;
+}
+
+
+#logo-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 12px;
+}
+
+#logo-name {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 12px;
+}
+
+#logo {
+    display: flex;
+}
+
+
+#main-div {
+    background: linear-gradient(rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.062)), url(https://img.freepik.com/free-vector/black-technology-background_23-2149209062.jpg?size=626&ext=jpg);
+    background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-position: center;
+}
+
+/* Upcoming */
+.section-content {
+    display: flex;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.cover-image {
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+}
+
+.hover-effect:hover div {
+    opacity: 0.6;
+    transform: scale(0.8);
+}
+
+.hover-effect div:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.cover-image img {
+    height: 400px;
+    width: 400px;
+}
+
+.play-song {
+    width: 250px;
+    height: 150px;
+    overflow: hidden;
+    border: 3px solid white;
+    border-radius: 5px;
+    position: relative;
+}
+
+.song-img img {
+    width: 78%;
+}
+
+.song-img {
+    width: 120px;
+    position: absolute;
+    left: 14px;
+    top: 23px;
+}
+
+.play-song h3,h4 {
+    text-align: center;
+    margin-left: 100px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.play-button {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 21px;
+    text-align: left;
+    padding-top: 33px;
+    font-size: x-large;
+    padding-left: 75px;
+    color: #FFF;
+}
+
+.play-song:hover .play-button {
+    display: block;
+}
+
+.play-song:hover {
+    box-shadow: 3px 3px 5px 2px white;
+}
