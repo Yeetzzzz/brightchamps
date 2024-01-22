@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description"><sup>*</sup> Please fill this form with all the necessary data.</p>
+    <form id="survey-form">
+        <div>
+            <label id="name" for="fullname">Name: </label>
+            <input type="text" name="fullname" id="fullname" placeholder="Full name" required>
+        </div>
+        <div>
+            <label id="email-addr" for="email">Email: </label>
+            <input type="email" name="email" id="email" placeholder="Email address" required>
+        </div>
+        <div>
+            <label id="usr-age" for="age">Age: </label>
+            <input type="number" inputmode="numeric" name="age" id="age" placeholder="Current age" min="18" max="40" required>
+        </div>
+            <label for="dropdown">Which best describes your occupation</label>
+            <select name="occupation" id="dropdown" class="select-element">
+                <option value="full-time">Full time</option>
+                <option value="part-time">Part time</option>
+                <option value="freelance">Freelancer</option>
+                <option value="teacher">Teacher</option>
+                <option value="student">Student</option>
+                <option value="unknown">Prefer not to say</option>
+            </select>
+        <div>
+            <div>How likely are you to enroll with us?</div>
+
+            <input type="radio" name="likely" id="radio-1" class="input-element input-radio" value="1">
+            <label for="radio-1">Extremely likely</label>
+            <input type="radio" name="likely" id="radio-2" class="input-element input-radio" value="2">
+            <label for="radio-2">Very likely</label>
+            <input type="radio" name="likely" id="radio-3" class="input-element input-radio" value="3">
+            <label for="radio-3">Likely</label>
+            <input type="radio" name="likely" id="radio-4" class="input-element input-radio" value="4">
+            <label for="radio-4">Unlikely</label>
+        </div>
+        <div></div>
+        <div></div>
+        <div><input type="submit"></div>
+    </form>
+</body>
+</html>

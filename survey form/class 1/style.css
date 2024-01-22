@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 64px;
+}
+
+#description {
+    margin-top: 44px;
+    text-align: center;
+    font-size: 22px;
+}
+
+html {
+    height: 100%;
+    background: linear-gradient(to bottom right, #4b54ff, #e92bcf, #ff3f93, #ff8461, #ffc34e, #f9f871);
+    text-shadow: 0.5px 0.5px rgb(94, 94, 94);
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+}
