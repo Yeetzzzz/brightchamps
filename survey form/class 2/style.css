@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 64px;
+}
+
+#description {
+    margin-top: 44px;
+    text-align: center;
+    font-size: 22px;
+}
+
+html {
+    height: 100%;
+    background: linear-gradient(to bottom right, #4b54ff, #e92bcf, #ff3f93, #ff8461, #ffc34e, #f9f871);
+    text-shadow: 0.5px 0.5px rgb(94, 94, 94);
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#survey-form {
+    margin-left: 400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+ul {
+    list-style: none;
+}
+
+#survey-form div {
+    margin-top: 30px;
+}
+
+.input-element {
+    height: 32px;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px 3px rgba(0, 0, 0, 0.5);
+}
+
+.input-radio,.input-checkbox {
+    width: 32px;
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+}
+
+.select-element {
+    height: 32px;
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 10px;
+    box-shadow: 0 10px 20px 3px rgba(0, 0, 0, 0.5);
+}
+
+.textarea-element {
+    height: 56px;
+    width: 50%;
+    margin-top: 16px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+#submit {
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    vertical-align: middle
+}
