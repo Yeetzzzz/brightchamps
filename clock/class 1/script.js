@@ -18,5 +18,3 @@ function changeToDay() {
     title.style.color = "var(--text-day)";
     document.body.style.backgroundColor = "var(--bg-day)";
 }
-
-changeToNight()
