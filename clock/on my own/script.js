@@ -68,6 +68,4 @@ setInterval(() => {
     } else if (hours > 5) {
         changeToDay();
     }
-
-    console.log("hi");
 }, 1000);
