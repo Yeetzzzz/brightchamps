@@ -47,13 +47,7 @@ function amOrPm(hours) {
     }
 }
 
-let hours;
-let mins;
-let secs;
-
-let date;
-
-setInterval(() => {
+function timer() {
     date = new Date();
 
     hours = date.getHours();
@@ -68,4 +62,13 @@ setInterval(() => {
     } else if (hours > 5) {
         changeToDay();
     }
-}, 1000);
+}
+
+let hours;
+let mins;
+let secs;
+
+let date;
+
+timer();
+setInterval(timer, 1000);
