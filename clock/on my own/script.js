@@ -28,7 +28,7 @@ function leftPad(num, string, char) {
 }
 
 function toTwelveHourClock(hours, mins, secs) {
-    if (hours > 13) {
+    if (hours > 12) {
         hours -= 12;
     }
 
