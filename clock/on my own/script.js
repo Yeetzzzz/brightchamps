@@ -57,7 +57,7 @@ function timer() {
     time.innerText = toTwelveHourClock(hours, mins, secs);
     ampm.innerText = amOrPm(hours);
 
-    if (hours > 17) {
+    if ((hours > 17) || (hours < 6)) {
         changeToNight();
     } else if (hours > 5) {
         changeToDay();
