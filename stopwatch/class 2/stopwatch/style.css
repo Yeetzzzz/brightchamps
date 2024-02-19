@@ -1,0 +1,85 @@
+@font-face { font-family: neuropolitical; src: url('fonts/neuropolitical rg.otf'); } 
+:root {
+    --bg-dark: rgb(34, 35, 44);
+    --bg-light: rgb(255, 252, 247);
+    --btn-dark: rgb(44, 44, 48);
+    --btn-light: rgb(104, 104, 104);
+    --text-dark: rgb(192, 192, 192);
+    --text-light: rgb(46, 46, 46);
+    --head-dark: rgb(139, 139, 139);
+    --head-light: rgb(104, 104, 104);
+    --time-dark: white;
+    --time-light: black;
+}
+
+body {
+    font-family: neuropolitical;
+    background-color: var(--bg-dark);
+}
+
+#main-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1 {
+    font-weight: lighter;
+    font-size: 40px;
+    color: var(--head-dark);
+    margin: 5px 0px;
+}
+
+#time {
+    font-size: 80px;
+    margin: 5px 0px;
+    width: 600px;
+    margin-bottom: 15px;
+    text-align: left;
+    transform: translateX(50px);
+    color: var(--time-dark);
+}
+
+button {
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 15px;
+    margin: 5px;
+    background-color: var(--btn-dark);
+    color: var(--text-dark);
+    font-family: neuropolitical;
+    font-size: 15px;
+}
+
+button:hover {
+    cursor: pointer;
+    border: 3px solid rgb(78, 78, 78);
+}
+
+nav ul {
+    list-style: none;
+    font-family: neuropolitical;
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav li a {
+    font-size: 20px;
+    color: var(--time-dark);
+    text-decoration: none;
+}
+
+nav li a:active {
+    font-size: 20px;
+    color: var(--time-dark);
+}
+
+nav li a:enabled {
+    color: var(--time-dark);
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face { font-family: neuropolitical; src: url('fonts/neuropolitical rg.otf'); } 
+        :root {
+            --bg-night: rgb(34, 35, 44);
+            --bg-day: rgb(255, 252, 247);
+            --text-night: rgb(139, 139, 139);
+            --text-day: rgb(104, 104, 104);
+            --time-night: white;
+            --time-day: black;
+            --ampm-night: rgb(120, 190, 255);
+            --ampm-day: rgb(255, 205, 158);
+        }
+        body {
+            background-color: var(--bg-day);
+            transition: all ease-in-out 0.3s;
+        }
+        h1 {
+            color: var(--text-day);
+        }
+        #desc {
+            color: var(--text-day);
+        }
+        #a {
+            text-align: center;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+        }
+        #ampm {
+            color: var(--ampm-day);
+        }
+
+        #time {
+            color: var(--time-day);
+        }
+
+        nav ul {
+            list-style: none;
+            font-family: neuropolitical;
+        }
+
+        nav li {
+            display: inline-block;
+            margin: 10px;
+        }
+
+        nav li a {
+            font-size: 20px;
+            color: var(--time-day);
+            text-decoration: none;
+        }
+
+        nav li a:active {
+            font-size: 20px;
+            color: var(--time-day);
+        }
+
+        nav li a:enabled {
+            color: var(--time-day);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="../clock/index.html">CLOCK</a></li>
+            <li><a href="../stopwatch/index.html">STOPWATCH</a></li>
+        </ul>
+    </nav>
+    <div>
+        <div id="a">
+            <h1 style="font-family: neuropolitical; font-weight: lighter; font-size: 40px; margin: 5px 0px;">DIGITAL CLOCK</h1>
+            <p style="font-family: neuropolitical; font-size: 70px; margin: 5px 0px;"><span id="time">00: 00: 00</span> <span id="ampm">AM</span></p>
+            <p style="font-family: neuropolitical; font-size: 22px;" id="info">12 hour pattern</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
