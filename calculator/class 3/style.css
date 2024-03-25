@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: bold 14px Arial;
+}
+
+header {
+    background-color: rgb(222, 239, 255);
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px rgb(175, 175, 175);
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+h1 {
+    font-size: 45px;
+}
+
+#calculator {
+    padding: 20px;
+    width: 325px;
+    border-radius: 3px;
+    background-color: aliceblue;
+    margin: 100px auto;
+    text-align: center;
+    box-shadow: 10px 10px 10px rgb(175, 175, 175);
+    height: 200px;
+}
+
+#screen {
+    height: 40px;
+    width: 279px;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 10px 10px 10px rgb(175, 175, 175);
+    border-radius: 5px;
+    text-align: right;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    text-shadow: rgb(175, 175, 175);
+}
+
+.keys span, #clear {
+    width: 66px;
+    height: 36px;
+    position: relative;
+    top: 0;
+    float: left;
+    background-color: rgb(248, 248, 248);
+    text-align: center;
+    line-height: 36px;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 10px 10px 10px rgb(175, 175, 175);
+    user-select: none;
+    margin: 2px;
+}
+
+.keys .op {
+    background-color: rgb(241, 222, 182);
+}
+
+.keys span#op-equ {
+    background-color: rgb(235, 203, 136);
+}
+
+.keys span:active, #clear:active {
+    transform: translateY(4px);
+}
